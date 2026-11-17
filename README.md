@@ -13,7 +13,7 @@ while True:
     print("[0] Exit")
     
     try:
-        code = int(input("Choose one lesson from number [1-7] and [0] Exit: "))
+        code = int(input("Choose one lesson from number [1-7] and [0] To Exit: "))
     except ValueError:
         print("Please Enter Lesson number only!")
         input("Enter anything to continue.....:")
@@ -88,7 +88,7 @@ while True:
         
         while True:
             try:
-                num = int(input("Choose Lesson 2 Number (1-7) and enter (0) to Exit:"))
+                num = int(input("Choose Lesson 2 Number (1-7) and Enter (0) to Exit:"))
             except ValueError:
                 print("Please enter 1-7 only and 0 To Exit Lesson!")
                 input("Enter anything to continue....:") 
@@ -776,5 +776,5 @@ while True:
         break
     
     else:
-        print("Invalid Choice! Please choose 1-7 only!")
+        print("Invalid Choice! Please choose 1-7 only and 0 To Exit!")
     input("Enter anything to return in Python Tutorial!: ")
